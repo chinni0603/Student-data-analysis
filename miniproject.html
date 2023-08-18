@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MVGR College</title>
+    <style>
+    body{
+    	margin: 0;
+    	padding: 0;
+    	box-sizing: border-box;
+    }
+    .dropdown{
+    	position: fixed;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	padding: 20px 100px;
+    	background:lightblue;
+    	display: flex;
+    	justify-content: space-between;
+    	align-items: center;
+    	z-index: 99;
+      text-decoration: none;
+    	color: red;
+    	margin-left: 20px;
+    }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+  </head>
+  <body>
+
+
+        <div class="dropdown">
+            <button class="dropbtn" style="color:black;" >Login ▾</button>
+            <div class="dropdown-content">
+                <a href="#">Principal</a>
+                <a href="#">HOD</a>
+                <a href="#">Student</a>
+            </div>
+
+
+  </body>
+</html>
